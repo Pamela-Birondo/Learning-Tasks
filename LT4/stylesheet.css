@@ -1,0 +1,49 @@
+body{
+    background-image: url(wp10574067-cat-and-moon-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+#wrapper{
+    height: 600px auto;
+    text-align: center;
+    padding: 10px;
+}
+#header{
+    font-family: 'Oswald', sans-serif;
+}
+#author{
+    font-family: 'Raleway', sans-serif;
+}
+#paragraph1{
+    height: 100px auto;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+#paragraph2{
+    height: 100px auto;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    
+}
+#paragraph3{
+    height: 100px auto;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+   
