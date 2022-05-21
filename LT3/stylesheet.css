@@ -1,0 +1,67 @@
+Body{
+    background-image: url(background.jpg);
+    Background-repeat: no-repeat;
+    Background-position: top center;
+    background-size: cover;
+}
+
+
+#wrapper{
+    width: 1070px;
+    min-height: 1000px;
+    border: 1px;
+    margin: 0 auto; 
+}
+
+#box-one, #box-two, #box-three, #box-four, #box-five, #box-six, #box-seven, #box-eight, #box-nine, #box-ten{
+    width: 180px;
+    height: 400px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 5px;
+    float: left;
+}
+
+#box-one{
+    background-color: rgba(176, 42, 27, .90)
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+}
+#box-two{
+    Background-color: rgba(242, 96, 12, .80)
+}
+
+#box-three{
+    background-color: rgba(46, 125, 50, .80)
+}
+
+#box-four{
+    background-color: rgba(127, 82, 3, .80)
+}
+
+#box-five{
+    background-color: rgba(0, 3, 199, .80)
+}
+#box-six{
+    background-color: rgba(255, 87, 34, .80)
+}
+ 
+#box-seven{
+    background-color: rgba(250, 150, 0, .80)
+}
+
+#box-eight{
+    background-color: rgba(255, 29, 35, .80)
+}
+#box-nine{
+    background-color: rgba(123, 31, 162, .80)
+}
+
+#box-ten{
+    background-color: rgba(255, 255, 255, .80)
+}

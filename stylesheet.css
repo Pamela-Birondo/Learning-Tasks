@@ -1,0 +1,307 @@
+body{
+    background-image: url(img/background.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+#wrapper{
+    width: 1326px ;
+    min-height: 1000px auto;
+    /*border: 1px solid black;*/ 
+    margin: auto;
+    
+}
+#wrappera{
+    width: 1326px ;
+    min-height: 1500px;
+    /*border: 1px solid black; */
+    margin: auto;
+}
+
+#wrapperb{
+    width: 1326px ;
+    height: 900px;
+    /*border: 1px solid black;*/ 
+    margin: auto;
+}
+#picbox{
+    width: 300px;
+    height: 300px;
+    /*border: 1px solid red;*/
+    margin:25px;
+    margin-left:-1px;
+    background-image: url(img/profile_pic.jpg);
+    background-size: 300px 300px;
+    margin-top: 1px;
+}
+
+#outpicbox{
+    width: 310px;
+    height: 750px;
+    border-right: 1px solid #0067A6;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+
+#namebox{
+    width: 850px;
+    height: 50px;
+    float:right;
+    margin-right: 100px;
+    margin-top: -555px;
+    font-family: 'Inconsolata', monospace;
+    border-bottom: 1px solid #0067A6;
+    font-size: 25px;
+    padding-bottom: 29px;
+    text-align: center;
+}
+#detailbox{
+    width: 850px;
+    height: 400px;
+    /*border:1px solid blue;*/
+    margin-left: 375px;
+    margin-top: -445px;
+}
+
+#leftbox{
+    width:390px;
+    height: 255px;
+    /*border: 1px solid red;*/
+    margin-top: 50px;
+    padding-top: 60px;
+    padding-left: 20px;
+    font-size: 11px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#rightbox{
+    width:450px;
+    height: 250px;
+    border-left: 1px solid #0067A6;
+    float:right;
+    margin-top: -394px;
+    font-size: 11px;
+    padding-top: 60px;
+    padding-left: 10px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#nav{
+    border-bottom: 1px solid #0067A6;
+    width: auto;
+    min-height: 50px;
+    margin: 10px;
+    font-size: 12px;
+    padding-left: 50px;
+    padding-top: 0px;
+    background-color: rgba(65, 146, 217, .20);
+    font-family: 'Dancing Script', cursive;
+    
+}
+#nav h1{
+    padding-top: 9px;
+}
+
+
+
+#menu{
+    /*border: 1px solid blue;*/
+    width: 400px;
+    min-height: 40px;
+    margin: 2px;
+    margin-top: -45px;
+    float:right;
+    
+    
+}
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+#menu a{
+    text-decoration: none;
+    float:left;
+    min-width: 70px;
+    padding: 5px;
+    margin-right: 34px;
+    font-size: 20px;
+    /*background-color: rgba(65, 146, 217, .20);*/
+    /*border: 1px solid black;*/
+   font-family: 'Inconsolata', monospace;
+    
+}
+#menu a:hover{
+    background-color:rgba(14, 234, 255, .50);
+}
+
+#intro{
+    /*border: 1px solid red;*/
+    width: 640px;
+    min-height: 400px;
+    margin: 10px;
+    padding: 5px;
+    padding-top: 100px;
+    font-family: 'Roboto Slab', serif;
+    background-color: rgba(65, 146, 217, .20);
+    font-size: 15px;
+    
+}
+
+/*#intro:hover{
+    background-color: #59D8E6;
+    
+    
+}*/
+#one{
+    /*border:1px solid pink;*/
+    width:515px;
+    margin: auto;
+    margin-left: 120px;
+    margin-top: -5px;
+    height:499px;
+    background: url(img/Untitled3_20220515134915.png);
+    background-repeat: no-repeat;
+    background-size: 400px 500px;
+}
+#one:hover{
+    background: url(img/Untitled2_20220515134934.png);
+    margin-top: 60px;
+    margin-bottom: -60px;
+    height:450px;
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    transition: 0.9s;
+}
+
+#pics{
+    /*border: 1px solid green;*/
+    width: 640px;
+    min-height: 500px;
+    margin: 10px;
+    padding: 5px;
+    float: right;
+    margin-top: -522px;
+}
+
+#box1{
+    /*border: 1px solid black;*/
+    width: 640px;
+    height: 400px;
+    background-image: url(img/LT_2.png);
+    background-repeat: no-repeat;
+    background-size: 650px 400px;
+}
+
+ 
+#box1b{
+    /*border: 1px solid black;*/
+    width: 640px;
+    height: 250px;
+    margin-top: -400px;
+    float:right;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+#box2{
+    /*border: 1px solid black;*/
+    width: 640px;
+    height: 400px;
+    background-image: url(img/LT_3.png);
+    background-repeat: no-repeat;
+    background-size: 650px 400px;
+}
+#box2b{
+    /*border: 1px solid black;*/
+    width: 640px;
+    height: 250px;
+    margin-top: -400px;
+    float:right;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+#box3{
+    /*border: 1px solid black;*/
+    width: 640px;
+    height: 400px;
+    background-image: url(img/LT_4.png);
+    background-repeat: no-repeat;
+    background-size: 650px 400px;
+}
+#box3b{
+    /*border: 1px solid black;*/
+    width: 640px;
+    height: 270px;
+    margin-top: -370px;
+    float:right;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+#box4{
+    /*border: 1px solid black;*/
+    width: 640px;
+    height: 400px;
+    background-image: url(img/LT_5.png);
+    background-repeat: no-repeat;
+    background-size: 650px 400px;
+}
+#box4b{
+    /*border: 1px solid black;*/
+    width: 640px;
+    height: 300px;
+    margin-top: -400px;
+    float:right;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+#box5{
+    /*border: 1px solid black;*/
+    width: 640px;
+    height: 400px;
+    background-image: url(img/CLE1.png);
+    background-repeat: no-repeat;
+    background-size: 650px 400px;
+}
+#box5b{
+    /*border: 1px solid black;*/
+    width: 640px;
+    height: 300px;
+    margin-top: -400px;
+    float:right;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+#footer{
+  border-top: 1px solid #0067A6;
+   width: 1326px;
+   min-height: 80px;    
+   margin:auto;
+   margin-top: 5px;
+   background-color: rgba(65, 146, 217, .20);
+}
+
+#box{
+    /*border: 1px solid black;*/
+    width: 400px;
+    min-height: 60px;
+    margin: auto;
+    padding-left: 145px;
+    margin-top: 10px;
+}
+#box img{
+    width: 20px;
+    height: 20px; 
+    display: block;
+    float: left;
+    margin: 33px;
+}
